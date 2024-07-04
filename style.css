@@ -115,16 +115,18 @@ button {
 
 .cardbody {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 70px;
+    gap: 50px;
     margin-top: 35px;
 
 }
 
 .card {
     width: 200px;
-    flex: 1 1 200px;
+    flex: 1 1 150px;
+
+
 }
 
 .cardholder {
@@ -132,11 +134,14 @@ button {
     height: 200px;
     border-radius: 15px;
     outline: 6px solid grey;
+    margin:auto;
+
 }
 
 
 .explain {
     margin: 15px;
+    text-align: center;
 }
 
 /* QUOTE STYLE */
